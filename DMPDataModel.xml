@@ -1,0 +1,151 @@
+<dmp>
+	<project>
+		<project-name>Sporting Institute Statistics</project-name>
+		<institute>TU Wien</institute>
+		<researchers>
+			<researcher>Fabian Mitscha-Eibl</researcher>
+			<researcher>Benjamin Krenn</researcher>
+		</researchers>
+	</project>
+	<metadata>
+		<authors>
+			<author>Fabian Mitscha-Eibl</author>
+			<author>Benjamin Krenn</author>
+		</authors>
+		<release>
+			<version>1.0</version>
+			<date>06.06.2017</date>
+		</release>
+		<contact>Benjamin Krenn</contact>
+	</metadata>
+	<documentation>
+		<section name="Data Collection">
+			<question>
+				<question-text>What type and amount of data will you generate?</question-text>
+				<answer>
+					<answer-text>We will generate a small set of statistical data for our data set. The statistics come in the form of raw text output as well as graphical plots to visualize the data.</answer-text>
+				</answer>
+			</question>
+			<question>
+				<question-text>How will the data be collected or created?</question-text>
+				<answer>
+					<answer-text>The data will be created by calculating them from a base set of data obtained from <a href="data.gv.at" target="_blank">data.gv.at</a>. The calculations are done by our own script.</answer-text>
+				</answer>
+			</question>
+		</section>
+		<section name="Documentation">
+			<question>
+				<question-text>What documentation will accompany the data?</question-text>
+				<answer>
+					<answer-text>There will be a README.md file to explain how to (re-)run the experiment as well as what data is generated and where, and how to access/interpret it.</answer-text>
+				</answer>
+			</question>
+		</section>
+		<section name="Metadata">
+			<question>
+				<question-text>What metadata will accompany the data?</question-text>
+				<answer>
+					<answer-text>We believe that all relevant metadata can be found in the accompanying README.md. If there are more concerns, please contact the Contact Person for this data set.</answer-text>
+				</answer>
+			</question>
+		</section>
+		<section name="Ethics and Legal Compliance">
+			<question>
+				<question-text>How will you manage any ethical issues?</question-text>
+				<answer>
+					<answer-text>No ethical concerns have been raised.</answer-text>
+				</answer>
+			</question>
+			<question>
+				<question-text>How will you manage copyright and Intellectual Property Rights (IPR) issues?</question-text>
+				<answer>
+					<answer-text>The data we are using is open data provided by the Austrian government. We are complying with their terms.
+					In regards to our own data's copyright, it is protected under the Creative Commons Attribution 4.0.</answer-text>
+				</answer>
+			</question>
+		</section>
+		<section name="Storage and Backup">
+			<question>
+				<question-text>How will the data be stored and backed up during the research?</question-text>
+				<answer>
+					<answer-text>We use Dropbox to save our scripts and results in a cloud. We have determined that this software is handy and usable for this purpose, as it is accessible over the web and backs up previous versions automatically.</answer-text>
+				</answer>
+			</question>
+			<question>
+				<question-text>How will you manage access and security?</question-text>
+				<answer>
+					<answer-text>Only the researchers themselves have access to the Dropbox. Their accounts are secured with passwords.</answer-text>
+				</answer>
+			</question>
+		</section>
+		<section name="Selection and Preservation">
+			<question>
+				<question-text>Which data should be retained, shared and/or preserved?</question-text>
+				<answer>
+					<answer-text>Both the script to be able to create new results in the future, as well as the results from the current data set. We do not believe there is a need to additionally store the current original data set from which the statistics were generated.</answer-text>
+				</answer>
+			</question>
+			<question>
+				<question-text>What is the long-term preservation plan for the dataset?</question-text>
+				<answer>
+					<answer-text>The experiment script and data should remain published. Python 2 should be easily readable and parseable in the future as well, so new results can be generated. The current results are raw text data, a JSON database and plots in EPS format. If EPS becomes outdated it should still be well possible to create new plots from the JSON data, or even just from the raw text data.</answer-text>
+				</answer>
+			</question>
+		</section>
+		<section name="Data Sharing">
+			<question>
+				<question-text>How will you share the data?</question-text>
+				<answer>
+					<answer-text>The data will be shared on Zenodo (see link).
+					This repository contains both the script and the current result data. The script can be used to redo and check the experiment at will.</answer-text>
+					<answer-file>http://doi.org/10.5281/zenodo.583304</answer-file>
+				</answer>
+			</question>
+			<question>
+				<question-text>How will the data be used after completion of the project?</question-text>
+				<answer>
+					<answer-text>That is up to whoever finds it and wants to use it. There are no plans to continue using it on the researchers' end.</answer-text>
+				</answer>
+			</question>
+		</section>
+		<section name="Responsibilities and Resources">
+			<question>
+				<question-text>Who will be responsible for data management?</question-text>
+				<answer>
+					<answer-text>Fabian Mitscha-Eibl</answer-text>
+				</answer>
+			</question>
+			<question>
+				<question-text>What resources will you require to implement your data management plan?</question-text>
+				<answer>
+					<answer-text>Mainly, access to the internet as well as hardware to browse it on. Also, the project data.</answer-text>
+				</answer>
+			</question>
+		</section>
+	</documentation>
+	<files>
+		<data title="Scriptfiles" type="Source Code">
+			<format>Python 2.7</format>
+			<description>Plain Text here</description>
+			<publication>
+				<url>http://doi.org/10.5281/zenodo.583304</url>
+				<license>https://creativecommons.org/licenses/by/4.0/</license>
+			</publication>
+		</data>
+		<data title="Text Data" type="Results">
+			<format>Plain Text</format>
+			<description>Publicised data</description>
+			<publication>
+				<url>http://doi.org/10.5281/zenodo.583304</url>
+				<license>https://creativecommons.org/licenses/by/4.0/</license>
+			</publication>
+		</data>
+		<data title="Plots" type="Results">
+			<format>EPS Images</format>
+			<publication>
+				<url>http://doi.org/10.5281/zenodo.583304</url>
+				<license>https://creativecommons.org/licenses/by/4.0/</license>
+			</publication>
+		</data>
+	</files>
+</dmp>
