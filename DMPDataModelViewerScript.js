@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$.get("https://drive.google.com/open?id=0B2I1A5C0icSHNE90ZldyNEljTjQ", function(xml) { start((new XMLSerializer()).serializeToString(xml)); });
+	$.get("DMPDataModel.xml", function(xml) { start((new XMLSerializer()).serializeToString(xml)); });
 });
 
 function start(input) {
